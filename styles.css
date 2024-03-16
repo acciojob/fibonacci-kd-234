@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+
+
+table{
+	
+	border-collapse:collapse;
+	box-shadow: 1px 1px 0px 0px lightgray;
+	
+}
+
+th, td {
+	height:35px;
+	
+    border: 1px solid black;
+	text-align:center;
+}
+
+td  {
+	width:100px
+	
+}
