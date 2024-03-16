@@ -4,13 +4,14 @@ function fibonacci(num) {
     if (num === 1) {
         return a;
     }
-
     for (let i = 2; i <= num; i++) {
         temp = a + b;
         a = b;
         b = temp;
     }
     return a;
+	
 }
 }
+document.getElementById("table1").innerHTML=a;
 module.exports = fibonacci;
